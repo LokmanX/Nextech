@@ -69,7 +69,7 @@ let menu = document.querySelector(".menu ul");
 bars.addEventListener("click", ()=>{
   if(menu.classList.contains('show')){
       menu.classList.remove('show');
-      document.body.style.overflow = 'scroll';
+      document.body.style.overflowY = 'scroll';
 
   }
   else{
